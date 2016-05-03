@@ -23,5 +23,4 @@
 #
 # m h  dom mon dow   command
 
-59 23 * * * /home/hector/RespaldoMusicdb/backupbases.sh
-
+59 23 * * * pg_dump --no-password musicdb > /home/hector/RespaldoMusicdb/backupbases.sh
